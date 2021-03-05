@@ -1,0 +1,29 @@
+{
+  "name": "octoherd-script-normalize-package-repository-field",
+  "version": "0.0.0-development",
+  "type": "module",
+  "exports": "./script.js",
+  "bin": {
+    "octoherd-script-normalize-package-repository-field": "./cli.js"
+  },
+  "description": "Remove redundant information from repository, homepage, bugs fields in package.json",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node script.js"
+  },
+  "repository": "https://github.com/gr2m/octoherd-script-normalize-package-repository-field",
+  "keywords": [
+    "octoherd-script"
+  ],
+  "author": "Gregor Martynus (https://dev.to/gr2m)",
+  "license": "ISC",
+  "dependencies": {
+    "@octoherd/cli": "^2.7.2"
+  },
+  "devDependencies": {},
+  "release": {
+    "branches": [
+      "main"
+    ]
+  }
+}
