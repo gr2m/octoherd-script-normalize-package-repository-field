@@ -13,8 +13,6 @@ This script turns
     "type": "git",
     "url": "https://github.com/octocat/hello-world.git"
   },
-  "author": "Gregor Martynus <gregor@martynus.net>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/octocat/hello-world/issues"
   },
