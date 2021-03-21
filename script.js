@@ -88,7 +88,7 @@ if (!globalThis.btoa) {
 
 if (!globalThis.atob) {
   globalThis.atob = (string) =>
-    Buffer.from(string, "base64").toString("binary");
+    Buffer.from(string, "base64").toString("utf-8");
 }
 
 /**
